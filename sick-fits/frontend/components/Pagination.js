@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import gql from 'graphql-tag';
 import { Query } from 'react-apollo';
 import Head from 'next/head';
@@ -65,5 +66,9 @@ const Pagination = props => (
     }}
   </Query>
 );
+
+Pagination.propTypes = {
+  page: PropTypes.number,
+};
 
 export default Pagination;

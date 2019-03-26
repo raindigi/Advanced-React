@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
 import styled from 'styled-components';
@@ -62,5 +63,9 @@ export default class Items extends Component {
     );
   }
 }
+
+Items.propTypes = {
+  page: PropTypes.number,
+};
 
 export { ALL_ITEMS_QUERY };

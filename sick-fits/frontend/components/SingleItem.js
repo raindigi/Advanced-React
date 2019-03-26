@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import gql from 'graphql-tag';
 import { Query } from 'react-apollo';
 import Error from './ErrorMessage';
@@ -75,5 +76,9 @@ class SingleItem extends Component {
     );
   }
 }
+
+SingleItem.propTypes = {
+  id: PropTypes.string,
+};
 
 export default SingleItem;

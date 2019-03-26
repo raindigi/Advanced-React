@@ -39,7 +39,11 @@ export default class Item extends Component {
               pathname: 'update',
               query: { id: item.id },
             }}>
-            <a>Edit ✏️</a>
+            <a>
+              <span role="img" aria-label="edit">
+                Edit ✏️
+              </span>
+            </a>
           </Link>
 
           <button>Add To Card</button>
