@@ -1,11 +1,13 @@
+const cookieParser = require('cookie-parser');
+
 require('dotenv').config({ path: 'variables.env' });
 const createServer = require('./createServer');
 // const db = require('./db');
 
 const server = createServer();
 
-// TODO: use express middleware to handle cookies (JWT)
-// TODO: use express middleware to populate current user
+server.express.use(cookieParser());
+// TODO Use express middlware to populate current user
 
 server.start(
   {
@@ -14,5 +16,7 @@ server.start(
       origin: process.env.FRONTEND_URL,
     },
   },
-  deets => console.warn(`Server is now running on port http://localhost:${deets.port}`),
+  deets => {
+    console.warn(`Server is now running on port http://localhost:${deets.port}`);
+  },
 );
