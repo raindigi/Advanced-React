@@ -1,0 +1,76 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - babel-plugin-styled-components > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - react-apollo > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - styled-components > babel-plugin-styled-components > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - enzyme > cheerio > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > @babel/core > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > autodll-webpack-plugin > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > hard-source-webpack-plugin > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > webpackbar > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > write-file-webpack-plugin > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > react-apollo > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - styled-components > @babel/helper-module-imports > @babel/types > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > autodll-webpack-plugin > webpack-merge > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > styled-jsx > babel-types > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > webpackbar > consola > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > webpackbar > table > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > next > @babel/core > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > next > write-file-webpack-plugin > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > next > styled-jsx > babel-types > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > next > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > next > webpack > async > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > @babel/preset-env > @babel/plugin-transform-parameters > @babel/helper-call-delegate > @babel/traverse > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > next > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > next > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > @babel/helper-simple-access > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > next > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
+    - next-with-apollo > next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T22:15:29.712Z'
