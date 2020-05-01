@@ -10,7 +10,9 @@
     "start": "nodemon -e js,graphql -x node src/index.js",
     "dev": "nodemon -e js,graphql -x node --inspect src/index.js",
     "test": "jest",
-    "deploy": "prisma deploy --env-file variables.env"
+    "deploy": "prisma deploy --env-file variables.env",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "babel": {
     "presets": [
@@ -53,6 +55,8 @@
     "npm-run-all": "^4.1.5",
     "prisma": "1.17.1",
     "prisma-binding": "2.1.6",
-    "stripe": "^6.12.1"
-  }
+    "stripe": "^6.12.1",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
